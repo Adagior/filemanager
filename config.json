@@ -1,6 +1,6 @@
 {
   "port": 8000,
-  "address": "",
+  "address": "0.0.0.0",
   "database": "/etc/filemanager/datebass.db",
   "scope": "/srv",
   "allowCommands": true,
