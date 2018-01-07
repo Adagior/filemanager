@@ -1,0 +1,10 @@
+{
+  "port": 8000,
+  "address": "",
+  "database": "/etc/filemanager/datebass.db",
+  "scope": "/srv",
+  "allowCommands": true,
+  "allowEdit": true,
+  "allowNew": true,
+  "commands": []
+}
