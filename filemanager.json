@@ -13,8 +13,4 @@
   "allowEdit": true,
   "allowNew": true,
   "allowpublish": true,
-  "commands": [
-    "git",
-    "svn"
-  ]
 }
