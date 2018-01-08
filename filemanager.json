@@ -2,15 +2,18 @@
   "port": 8000,
   "noAuth": false,
   "baseURL": "/admin",
-  "address": "0.0.0.0",
+  "address": "127.0.0.1",
   "reCaptchaKey": "",
   "reCaptchaSecret": "",
   "database": "/usr/local/bin/database.db",
   "log": "stdout",
   "plugin": "",
   "scope": "/root",
-  "allowCommands": false,
+  "allowCommands": true,
   "allowEdit": true,
   "allowNew": true,
-  "allowpublish": true,
+  "commands": [
+    "git",
+    "svn"
+  ]
 }
