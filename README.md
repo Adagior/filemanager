@@ -15,6 +15,9 @@ iwr -useb https://henriquedias.com/filemanager/get.ps1 | iex
 put filemanager  to  usr/local/bin
 
 ```
+chmod +x /usr/local/bin/filemanager
+```
+```
 mkdir /etc/filemanager
 ```
 ```
