@@ -9,9 +9,10 @@
   "log": "stdout",
   "plugin": "",
   "scope": "/root",
-  "allowCommands": true,
+  "allowCommands": false,
   "allowEdit": true,
   "allowNew": true,
+  "allowpublish": true,
   "commands": [
     "git",
     "svn"
