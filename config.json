@@ -1,10 +1,19 @@
 {
   "port": 8000,
+  "noAuth": false,
+  "baseURL": "/admin",
   "address": "0.0.0.0",
-  "database": "/etc/filemanager/datebass.db",
-  "scope": "/srv",
+  "reCaptchaKey": "",
+  "reCaptchaSecret": "",
+  "database": "/usr/local/bin/database.db",
+  "log": "stdout",
+  "plugin": "",
+  "scope": "/root",
   "allowCommands": true,
   "allowEdit": true,
   "allowNew": true,
-  "commands": []
+  "commands": [
+    "git",
+    "svn"
+  ]
 }
