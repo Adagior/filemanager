@@ -16,8 +16,11 @@ put filemanager  to  usr/local/bin
 
 
 mkdir /etc/filemanager
+
 mkdir /srv ##这步报错可忽略
+
 wget -O /etc/filemanager/config.json https://github.com/malaohu/ruyo-shell/raw/master/FileManager/config.json
+
 nohup filemanager -c /etc/filemanager/config.json >/dev/null 2>&1 &
 
 
