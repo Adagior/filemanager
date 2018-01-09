@@ -2,7 +2,7 @@
   "port": 8000,
   "noAuth": false,
   "baseURL": "/admin",
-  "address": "127.0.0.1",
+  "address": "0.0.0.0",
   "reCaptchaKey": "",
   "reCaptchaSecret": "",
   "database": "/usr/local/bin/database.db",
