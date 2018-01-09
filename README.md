@@ -12,7 +12,7 @@ If you’re on Windows, you can use PowerShell to install File Manager too. You 
 iwr -useb https://hacdias.github.io/filemanager/get.ps1 | iex
 ```
 或者
-put filemanager  to  usr/local/bin
+put filemanager  to  usr/local/bin        usr/bin
 
 ```
 chmod +x /usr/local/bin/filemanager
