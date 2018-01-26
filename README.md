@@ -16,6 +16,12 @@ So, if you wanted to run File Manager on port 80, with the database on /etc/fm.d
 ```
 filemanager --port 80 --database /usr/local/bin/filemanager.db --scope /root
 ```
+配置
+```
+wget -O /usr/local/bin/filemanager.json https://raw.githubusercontent.com/Adagior/filemanager/master/filemanager.json
+
+filemanager -c /usr/local/bin/filemanager.json
+```
 
 
 
@@ -24,8 +30,7 @@ filemanager --port 80 --database /usr/local/bin/filemanager.db --scope /root
 
 
 
-==============
-其他方案：
+他人配置方案：
 ```
 chmod +x /usr/local/bin/filemanager
 
