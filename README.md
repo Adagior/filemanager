@@ -56,3 +56,4 @@ sudo systemctl daemon-reload        # 重新加载 systemd 配置
 sudo systemctl enable caddy.service # 设置 caddy 服务自启动
 sudo systemctl status caddy.service # 查看 caddy 状态
 ```
+相关文章 https://www.zybuluo.com/zwh8800/note/844776
