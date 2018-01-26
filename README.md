@@ -1,5 +1,4 @@
-获取：
-----
+
 With curl:
 ```
 curl -fsSL https://hacdias.github.io/filemanager/get.sh | bash
@@ -25,14 +24,7 @@ filemanager -c /usr/local/bin/filemanager.json
 ```
 
 
-
-
-
-
-
-
 他人配置方案：
------
 ```
 chmod +x /usr/local/bin/filemanager
 
@@ -53,4 +45,33 @@ nohup filemanager -c /etc/filemanager/config.json >/dev/null 2>&1 &
 关闭后台服务
 ```
 eval $(ps -ef | grep filemanager | grep -v grep | awk '{print "kill "$2}')
+```
+Caddy
+------
+
+https://caddyserver.com/download
+```
+sudo curl -s https://raw.githubusercontent.com/mholt/caddy/master/dist/init/linux-systemd/caddy.service -o /etc/systemd/system/caddy.service   # 从 github 下载 systemd 配置文件
+sudo systemctl daemon-reload        # 重新加载 systemd 配置
+sudo systemctl enable caddy.service # 设置 caddy 服务自启动
+sudo systemctl status caddy.service # 查看 caddy 状态
+```
+Caddy
+50
+------
+51
+​
+52
+https://caddyserver.com/download
+53
+```
+54
+sudo curl -s https://raw.githubusercontent.com/mholt/caddy/master/dist/init/linux-systemd/caddy.service -o /etc/systemd/system/caddy.service   # 从 github 下载 systemd 配置文件
+55
+sudo systemctl daemon-reload        # 重新加载 systemd 配置
+56
+sudo systemctl enable caddy.service # 设置 caddy 服务自启动
+57
+sudo systemctl status caddy.service # 查看 caddy 状态
+58
 ```
