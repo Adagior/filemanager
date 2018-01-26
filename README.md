@@ -1,4 +1,5 @@
-
+获取：
+----
 With curl:
 ```
 curl -fsSL https://hacdias.github.io/filemanager/get.sh | bash
@@ -31,6 +32,7 @@ filemanager -c /usr/local/bin/filemanager.json
 
 
 他人配置方案：
+-----
 ```
 chmod +x /usr/local/bin/filemanager
 
