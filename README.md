@@ -19,6 +19,12 @@ filemanager --port 80 --database /usr/local/bin/filemanager.db --scope /root
 
 
 
+
+
+
+
+
+==============
 其他方案：
 ```
 chmod +x /usr/local/bin/filemanager
