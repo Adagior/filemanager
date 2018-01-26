@@ -56,22 +56,3 @@ sudo systemctl daemon-reload        # 重新加载 systemd 配置
 sudo systemctl enable caddy.service # 设置 caddy 服务自启动
 sudo systemctl status caddy.service # 查看 caddy 状态
 ```
-Caddy
-50
-------
-51
-​
-52
-https://caddyserver.com/download
-53
-```
-54
-sudo curl -s https://raw.githubusercontent.com/mholt/caddy/master/dist/init/linux-systemd/caddy.service -o /etc/systemd/system/caddy.service   # 从 github 下载 systemd 配置文件
-55
-sudo systemctl daemon-reload        # 重新加载 systemd 配置
-56
-sudo systemctl enable caddy.service # 设置 caddy 服务自启动
-57
-sudo systemctl status caddy.service # 查看 caddy 状态
-58
-```
