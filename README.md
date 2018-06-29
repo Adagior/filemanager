@@ -48,7 +48,9 @@ eval $(ps -ef | grep filemanager | grep -v grep | awk '{print "kill "$2}')
 ```
 Caddy
 ------
-
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh install http.filemanager
+```
 https://caddyserver.com/download
 ```
 sudo curl -s https://raw.githubusercontent.com/mholt/caddy/master/dist/init/linux-systemd/caddy.service -o /etc/systemd/system/caddy.service   # 从 github 下载 systemd 配置文件
